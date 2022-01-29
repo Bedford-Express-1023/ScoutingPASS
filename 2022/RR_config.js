@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022flwp",
+        "defaultValue":"2022mifor",
         "required":"true",
         "disabled":"true"
       },
@@ -22,11 +22,7 @@ var config_data = `
         "code":"l",
         "type":"level",
         "choices":{
-          "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
-          "qf":"Quarter-Final<br>",
-          "sf":"Semi-Final<br>",
-          "f":"Final"
+          "qm":"Quals<br>"
         },
         "defaultValue":"qm",
         "required":"true"
@@ -38,24 +34,12 @@ var config_data = `
         "max":100,
         "required":"true"
       },
-     "Robot": {
-        "code":"r",
-        "type":"robot",
-        "choices":{
-          "r1":"Red-1",
-          "b1":"Blue-1<br>",
-          "r2":"Red-2",
-          "b2":"Blue-2<br>",
-          "r3":"Red-3",
-          "b3":"Blue-3"
-        },
-        "required":"true"
-      },
       "Team #": {
         "code":"t",
         "type":"team",
         "min":1,
         "max":99999
+	"required":"true"
       },
       "Auto Start Position": {
         "code":"as",
@@ -84,7 +68,11 @@ var config_data = `
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
-      }
+      }, 
+	"Human Player Scored": {
+	"code":"hp",
+	"title": "Human Player Scored",
+	"type":"counter"
     },
     "teleop": {
       "Upper Cargo Scored": {
