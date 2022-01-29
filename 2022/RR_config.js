@@ -4,7 +4,7 @@ var config_data = `
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
-      "Scouter Initials": {
+      "Scouter Name": {
         "code":"s",
         "type":"scouter",
         "size":5,
