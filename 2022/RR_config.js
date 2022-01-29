@@ -43,7 +43,11 @@ var config_data = `
         "type":"robot",
         "choices":{
           "r1":"Red-1",
+<<<<<<< HEAD
           "b1":"Blue-1<br>",3
+=======
+          "b1":"Blue-1<br>",
+>>>>>>> parent of 3fd7c18 (Update RR_config.js)
           "r2":"Red-2",
           "b2":"Blue-2<br>",
           "r3":"Red-3",
