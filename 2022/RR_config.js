@@ -17,16 +17,7 @@ var config_data = `
         "defaultValue":"2022mifor",
         "required":"true",
         "disabled":"true"
-      },
-      "Match Level":{
-        "code":"l",
-        "type":"level",
-        "choices":{
-          "qm":"Quals<br>"
-        },
-        "defaultValue":"qm",
-        "required":"true"
-      },
+	},
       "Match #":{
         "code":"m",
         "type":"match",
