@@ -18,9 +18,18 @@ var config_data = `
         "required":"true",
         "disabled":"true"
       },
-      "Match Level":{
-	"code":"l",
-        "type":" "
+       "Match Level":{
+        "code":"l",
+        "type":"level",
+        "choices":{
+          "qm":"Quals<br>",
+          "ef":"Eighth-Final<br>",
+          "qf":"Quarter-Final<br>",
+          "sf":"Semi-Final<br>",
+          "f":"Final"
+        },
+        "defaultValue":"qm",
+        "required":"true"
       },
       "Match #":{
         "code":"m",
@@ -30,8 +39,17 @@ var config_data = `
         "required":"true"
       },
       "Robot": {
-       "code":"r",
-       "type":" "
+        "code":"r",
+        "type":"robot",
+        "choices":{
+          "r1":"Red-1",
+          "b1":"Blue-1<br>",3
+          "r2":"Red-2",
+          "b2":"Blue-2<br>",
+          "r3":"Red-3",
+          "b3":"Blue-3"
+        },
+        "required":"true"
       },
       "Team #": {
         "code":"t",
