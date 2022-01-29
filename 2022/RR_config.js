@@ -19,7 +19,8 @@ var config_data = `
         "disabled":"true"
       },
       "Match Level":{
-	"code":"l"
+	"code":"l",
+        "type":" "
       },
       "Match #":{
         "code":"m",
@@ -29,7 +30,8 @@ var config_data = `
         "required":"true"
       },
       "Robot": {
-       "code":"r"
+       "code":"r",
+       "type":" "
       },
       "Team #": {
         "code":"t",
