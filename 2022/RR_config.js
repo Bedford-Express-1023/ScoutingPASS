@@ -4,7 +4,7 @@ var config_data = `
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
-      "Scouter Name": {
+      "Scouter Initials": {
         "code":"s",
         "type":"scouter",
         "size":5,
@@ -17,10 +17,20 @@ var config_data = `
         "defaultValue":"2022flwp",
         "required":"true",
         "disabled":"true"
-	},
-   	"defaultValue":"qm",
-        "required":"true"
+      },
+      "Match Level":{
+        "code":"l",
+        "type":"level",
+        "choices":{
+          "qm":"Quals<br>",
+          "ef":"Eighth-Final<br>",
+          "qf":"Quarter-Final<br>",
+          "sf":"Semi-Final<br>",
+          "f":"Final"
         },
+        "defaultValue":"qm",
+        "required":"true"
+      },
       "Match #":{
         "code":"m",
         "type":"match",
@@ -28,12 +38,24 @@ var config_data = `
         "max":100,
         "required":"true"
       },
+     "Robot": {
+        "code":"r",
+        "type":"robot",
+        "choices":{
+          "r1":"Red-1",
+          "b1":"Blue-1<br>",
+          "r2":"Red-2",
+          "b2":"Blue-2<br>",
+          "r3":"Red-3",
+          "b3":"Blue-3"
+        },
+        "required":"true"
+      },
       "Team #": {
         "code":"t",
         "type":"team",
         "min":1,
         "max":99999
-	"required":"true"
       },
       "Auto Start Position": {
         "code":"as",
@@ -62,11 +84,7 @@ var config_data = `
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
-      }, 
-	"Human Player Scored": {
-	"code":"hp",
-	"title": "Human Player Scored",
-	"type":"counter"
+      }
     },
     "teleop": {
       "Upper Cargo Scored": {
