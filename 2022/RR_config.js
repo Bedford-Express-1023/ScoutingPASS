@@ -18,12 +18,18 @@ var config_data = `
         "required":"true",
         "disabled":"true"
       },
+      "Match Level":{
+	"code":"l"
+      },
       "Match #":{
         "code":"m",
         "type":"match",
         "min":1,
         "max":100,
         "required":"true"
+      },
+      "Robot": {
+       "code":"r"
       },
       "Team #": {
         "code":"t",
