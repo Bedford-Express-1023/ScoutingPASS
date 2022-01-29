@@ -18,6 +18,9 @@ var config_data = `
         "required":"true",
         "disabled":"true"
 	},
+   	"defaultValue":"qm",
+        "required":"true"
+        },
       "Match #":{
         "code":"m",
         "type":"match",
