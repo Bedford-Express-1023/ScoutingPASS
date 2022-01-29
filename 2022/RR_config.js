@@ -58,11 +58,6 @@ var config_data = `
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
-      },
-	"Human Player Scored": {
-	"code":"hp",
-	"title": "Human Player Scored",
-	"type":"counter"
 	}
     },
     "teleop": {
