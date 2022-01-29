@@ -18,7 +18,7 @@ var config_data = `
         "required":"true",
         "disabled":"true"
       },
-       "Match Level":{
+      "Match Level":{
         "code":"l",
         "type":"level",
         "choices":{
