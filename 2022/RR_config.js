@@ -1,10 +1,10 @@
 var config_data = `
 {
-  "title":"Scouting PASS 2022",
+  "title":"BX Scouting PASS 2022",
   "page_title":"Rapid React",
   "elements":{
     "prematch": {
-      "Scouter Initials": {
+      "Scouter Name": {
         "code":"s",
         "type":"scouter",
         "size":5,
@@ -14,22 +14,9 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022flwp",
+        "defaultValue":"2022mifor",
         "required":"true",
         "disabled":"true"
-      },
-      "Match Level":{
-        "code":"l",
-        "type":"level",
-        "choices":{
-          "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
-          "qf":"Quarter-Final<br>",
-          "sf":"Semi-Final<br>",
-          "f":"Final"
-        },
-        "defaultValue":"qm",
-        "required":"true"
       },
       "Match #":{
         "code":"m",
