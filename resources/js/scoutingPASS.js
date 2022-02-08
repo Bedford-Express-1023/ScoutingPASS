@@ -422,36 +422,6 @@ function resetRobot() {
 	}
 }
 
-
-function getLevel(){
-	if(document.getElementById("input_l_qm").checked){
-		return "qm";
-	} else if(document.getElementById("input_l_ef").checked){
-		return "ef";
-	} else if(document.getElementById("input_l_qf").checked){
-		return "qf";
-	} else if(document.getElementById("input_l_sf").checked){
-		return "sf";
-	} else if(document.getElementById("input_l_f").checked){
-		return "f";
-	} else {
-		return "";
-	}
-}
-
-function validateLevel() {
-	if (document.getElementById("input_l_qm").checked ||
-		document.getElementById("input_l_ef").checked ||
-		document.getElementById("input_l_qf").checked ||
-		document.getElementById("input_l_sf").checked ||
-		document.getElementById("input_l_f").checked
-	) {
-		return true
-	} else {
-		return false
-	}
-}
-
 function validateData() {
 	var ret = true
 	var errStr = "Bad fields: ";
