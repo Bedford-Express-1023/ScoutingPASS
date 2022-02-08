@@ -18,18 +18,6 @@ var config_data = `
         "required":"true",
         "disabled":"true"
       },
-      "Match Level":{
-        "code":"l",
-        "type":"level",
-        "choices":{
-          "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
-          "qf":"Quarter-Final<br>",
-          "sf":"Semi-Final<br>",
-          "f":"Final"
-        },
-        "required":"true"
-      },
       "Match #":{
         "code":"m",
         "type":"match",
