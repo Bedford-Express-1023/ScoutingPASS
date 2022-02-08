@@ -76,6 +76,11 @@ var config_data = `
         "code":"ug",
         "title": "Human Player Top Goal",
         "type":"counter"
+      },
+      "Human Player Low Goal": {
+        "code":"lg",
+        "title": "Human Player Low Goal",
+        "type":"counter"
       }
     },
     "teleop": {
