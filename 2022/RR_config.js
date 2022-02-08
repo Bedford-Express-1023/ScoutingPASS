@@ -4,11 +4,11 @@ var config_data = `
   "page_title":"BX Rapid React",
   "elements":{
     "prematch": {
-      "Scouter Initials": {
+      "Scouter Name": {
         "code":"s",
         "type":"scouter",
         "size":5,
-        "maxSize":5,
+        "maxSize":200,
         "required":"true"
       },
       "Event":{
