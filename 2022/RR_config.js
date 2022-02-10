@@ -42,7 +42,8 @@ var config_data = `
         "code":"t",
         "type":"team",
         "min":1,
-        "max":99999
+        "max":99999,
+	"required":"true"
       },
       "Auto Start Position": {
         "code":"as",
@@ -119,7 +120,8 @@ var config_data = `
           "b":"Both<br>",
           "x":"Not Attempted"
         },
-        "defaultValue":"x"
+        "defaultValue":"x",
+	"required":"true"
       },
       "Shooting Spot": {
         "code":"ss",
@@ -141,7 +143,8 @@ var config_data = `
           "f":"Attempted but Failed<br>",
           "x":"Not Attempted"
         },
-        "defaultValue":"x"
+        "defaultValue":"x",
+	"required":"true"
       },
       "Started Climb before Endgame": {
         "code":"be",
@@ -165,7 +168,8 @@ var config_data = `
           "v":"Very Effective<br>",
           "x":"Not Observed"
         },
-        "defaultValue":"x"
+        "defaultValue":"x",
+	"required":"true"
       },
       "Defense Rating": {
         "code":"dr",
@@ -177,7 +181,8 @@ var config_data = `
           "v":"Very Effective<br>",
           "x":"Not Observed"
         },
-        "defaultValue":"x"
+        "defaultValue":"x",
+	"required":"true"
       },
       "Died": {
         "code":"d",
