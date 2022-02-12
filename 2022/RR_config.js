@@ -73,6 +73,12 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
+      "Total Cargo Missed": {
+        "code":"cm",
+        "title": "Total Cargo Missed",
+        "type": "counter",
+	"required":"true
+      },
       "Auto Aquired Cargo": {
         "code":"ac",
         "title": "Picked up more cargo?",
