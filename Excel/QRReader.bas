@@ -47,6 +47,8 @@ Sub saveData(inp As String)
     mapper.Add "m", "matchNumber"
     mapper.Add "r", "robot"
     mapper.Add "t", "teamNumber"
+    mapper.Add "ug", "HP Upper"
+    mapper.Add "lg", "HP Lower"
 
     ' Additional custom mapping
     'mapper.Add "f", "fouls"
