@@ -73,6 +73,11 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
+      "Cargo Missed": {
+        "code":"az",
+        "title": "Cargo Missed",
+        "type":"counter"
+      },
       "Auto Aquired Cargo": {
         "code":"ac",
         "title": "Picked up more cargo?",
