@@ -45,6 +45,11 @@ var config_data = `
         "max":99999,
 	"required":"true"
       },
+      "Preload": {
+	"code":"p",
+	"type":"bool",
+	"required":"true"
+      },
       "Auto Start Position": {
         "code":"as",
         "title": "Auto Start Position",
