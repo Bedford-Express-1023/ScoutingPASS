@@ -77,6 +77,7 @@ var config_data = `
         "code":"cm",
         "title": "Total Cargo Missed",
         "type": "counter",
+	"required":"true
       },
       "Auto Aquired Cargo": {
         "code":"ac",
@@ -111,7 +112,7 @@ var config_data = `
         "type":"counter"
       },
       "Lower Cargo Missed": {
-        "code":"tm",
+        "code":"tn",
         "title": "Lower Cargo Missed",
         "type":"counter"
       },
