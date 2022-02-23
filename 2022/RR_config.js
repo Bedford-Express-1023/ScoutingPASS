@@ -5,7 +5,7 @@ var config_data = `
   "elements":{
     "prematch": {
       "Scouter Name": {
-        "code":"s",
+        "code":"scout",
         "type":"scouter",
         "size":5,
         "maxSize":30,
