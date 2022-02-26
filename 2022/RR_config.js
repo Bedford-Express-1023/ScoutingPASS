@@ -5,28 +5,28 @@ var config_data = `
   "elements":{
     "prematch": {
       "Scouter Name": {
-        "code":"scouter",
+        "code":"scout",
         "type":"scouter",
         "size":5,
         "maxSize":30,
         "required":"true"
       },
       "Event":{
-        "code":"event",
+        "code":"e",
         "type":"event",
         "defaultValue":"2022flwp",
         "required":"true",
         "disabled":"true"
       },
       "Match #":{
-        "code":"match",
+        "code":"m",
         "type":"match",
         "min":1,
         "max":100,
         "required":"true"
       },
      "Robot": {
-        "code":"robot",
+        "code":"r",
         "type":"robot",
         "choices":{
           "r1":"Red-1",
@@ -39,14 +39,14 @@ var config_data = `
         "required":"true"
       },
       "Team #": {
-        "code":"team num",
+        "code":"t",
         "type":"team",
         "min":1,
         "max":99999,
 	"required":"true"
       },
       "Preload": {
-	"code":"preload",
+	"code":"p",
 	"type":"bool",
 	"required":"true"
       },
