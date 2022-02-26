@@ -12,7 +12,7 @@ var config_data = `
         "required":"true"
       },
       "Event":{
-        "code":"event",
+        "code":"e",
         "type":"event",
         "defaultValue":"2022flwp",
         "required":"true",
