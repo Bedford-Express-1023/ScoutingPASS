@@ -6,7 +6,6 @@ var config_data = `
     "prematch": {
       "Scouter Name": {
         "code":"scout",
-	"color":"black",
         "type":"scouter",
         "size":5,
         "maxSize":30,
