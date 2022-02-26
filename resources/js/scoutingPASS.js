@@ -16,11 +16,7 @@ var options = {
 
 // Must be filled in: e=event, m=match#, l=level(q,qf,sf,f), t=team#, r=robot(r1,r2,b1..), s=scouter
 //var requiredFields = ["e", "m", "l", "t", "r", "s", "as"];
-<<<<<<< HEAD
 var requiredFields = ["event", "match", "scout", "as"];
-=======
-var requiredFields = ["e", "m", "scout", "as"];
->>>>>>> parent of 0717083 (Update scoutingPASS.js)
 
 function addCounter(table, idx, name, data){
   var row = table.insertRow(idx);
