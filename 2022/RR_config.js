@@ -5,28 +5,28 @@ var config_data = `
   "elements":{
     "prematch": {
       "Scouter Name": {
-        "code":"scout",
+        "code":"scouter",
         "type":"scouter",
         "size":5,
         "maxSize":30,
         "required":"true"
       },
       "Event":{
-        "code":"e",
+        "code":"event",
         "type":"event",
         "defaultValue":"2022flwp",
         "required":"true",
         "disabled":"true"
       },
       "Match #":{
-        "code":"m",
+        "code":"match",
         "type":"match",
         "min":1,
         "max":100,
         "required":"true"
       },
      "Robot": {
-        "code":"r",
+        "code":"robot",
         "type":"robot",
         "choices":{
           "r1":"Red-1",
@@ -39,19 +39,19 @@ var config_data = `
         "required":"true"
       },
       "Team #": {
-        "code":"t",
+        "code":"team num",
         "type":"team",
         "min":1,
         "max":99999,
 	"required":"true"
       },
       "Preload": {
-	"code":"p",
+	"code":"preload",
 	"type":"bool",
 	"required":"true"
       },
       "Auto Start Position": {
-        "code":"as",
+        "code":"a start pos",
         "title": "Auto Start Position",
         "type":"field_image",
         "filename":"2022/field_image.png"
