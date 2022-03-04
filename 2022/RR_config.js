@@ -47,8 +47,7 @@ var config_data = `
       },
       "Preload": {
 	"code":"p",
-	"type":"bool",
-	"required":"true"
+	"type":"counter"
       },
       "Auto Start Position": {
         "code":"as",
@@ -61,8 +60,7 @@ var config_data = `
       "Taxi": {
         "code":"at",
         "title": "Taxied?",
-        "type":"counter",
-	"maxSize":"1"
+        "type":"counter"
       },
       "Upper Cargo Scored": {
         "code":"au",
