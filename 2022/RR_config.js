@@ -60,7 +60,11 @@ var config_data = `
       "Taxi": {
         "code":"at",
         "title": "Taxied?",
+<<<<<<< HEAD
         "type":"counter"
+=======
+        "type":"bool"
+>>>>>>> parent of b2f27c3 (Added Maxsize)
       },
       "Upper Cargo Scored": {
         "code":"au",
