@@ -60,11 +60,7 @@ var config_data = `
       "Taxi": {
         "code":"at",
         "title": "Taxied?",
-<<<<<<< HEAD
         "type":"counter"
-=======
-        "type":"bool"
->>>>>>> parent of b2f27c3 (Added Maxsize)
       },
       "Upper Cargo Scored": {
         "code":"au",
@@ -84,7 +80,7 @@ var config_data = `
       "Auto Aquired Cargo": {
         "code":"ac",
         "title": "Picked up more cargo?",
-        "type":"counter"
+        "type":"bool"
       },
       "Human Player Top Goal": {
         "code":"ug",
@@ -121,7 +117,7 @@ var config_data = `
       "Was Defended": {
         "code":"wd",
         "title": "Was Defended",
-        "type":"counter"
+        "type":"bool"
       },
       "Cargo Loading": {
         "code":"cl",
@@ -162,7 +158,7 @@ var config_data = `
       "Started Climb before Endgame": {
         "code":"be",
         "title": "Started climb before EndGame",
-        "type":"counter"
+        "type":"bool"
       },
       "Num of Robots Climbed": {
         "code":"cn",
@@ -200,17 +196,17 @@ var config_data = `
       "Died": {
         "code":"d",
         "title": "Died",
-        "type":"counter"
+        "type":"bool"
       },
       "Tipped": {
         "code":"to",
         "title": "Tipped Over",
-        "type":"counter"
+        "type":"bool"
       },
       "Card Foul": {
         "code":"cf",
         "title": "Yellow/Red Card",
-        "type":"counter"
+        "type":"bool"
       },
       "Comments": {
         "code":"co",
