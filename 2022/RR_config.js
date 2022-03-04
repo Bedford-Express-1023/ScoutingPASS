@@ -61,7 +61,8 @@ var config_data = `
       "Taxi": {
         "code":"at",
         "title": "Taxied?",
-        "type":"bool"
+        "type":"counter",
+	"maxSize":"1"
       },
       "Upper Cargo Scored": {
         "code":"au",
