@@ -80,7 +80,7 @@ var config_data = `
       "Auto Aquired Cargo": {
         "code":"ac",
         "title": "Picked up more cargo?",
-        "type":"bool"
+        "type":"counter"
       },
       "Human Player Top Goal": {
         "code":"ug",
@@ -117,7 +117,7 @@ var config_data = `
       "Was Defended": {
         "code":"wd",
         "title": "Was Defended",
-        "type":"bool"
+        "type":"counter"
       },
       "Cargo Loading": {
         "code":"cl",
@@ -158,7 +158,7 @@ var config_data = `
       "Started Climb before Endgame": {
         "code":"be",
         "title": "Started climb before EndGame",
-        "type":"bool"
+        "type":"counter"
       },
       "Num of Robots Climbed": {
         "code":"cn",
@@ -196,17 +196,17 @@ var config_data = `
       "Died": {
         "code":"d",
         "title": "Died",
-        "type":"bool"
+        "type":"counter"
       },
       "Tipped": {
         "code":"to",
         "title": "Tipped Over",
-        "type":"bool"
+        "type":"counter"
       },
       "Card Foul": {
         "code":"cf",
         "title": "Yellow/Red Card",
-        "type":"bool"
+        "type":"counter"
       },
       "Comments": {
         "code":"co",
