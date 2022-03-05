@@ -28,7 +28,6 @@ var config_data = `
      "Robot": {
         "code":"r",
         "type":"robot",
-	"required":"true",
         "choices":{
           "r1":"Red-1",
           "b1":"Blue-1<br>",
@@ -37,6 +36,7 @@ var config_data = `
           "r3":"Red-3",
           "b3":"Blue-3"
         },
+	"required":"true"
       },
       "Team #": {
         "code":"t",
