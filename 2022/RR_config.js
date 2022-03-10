@@ -49,6 +49,12 @@ var config_data = `
 	"code":"p",
 	"type":"bool",
 	"required":"true"
+      },
+      "Auto Start Position": {
+        "code":"as",
+        "title": "Auto Start Position",
+        "type":"field_image",
+        "filename":"2022/field_image.png"
       }
     },
     "auton": {
