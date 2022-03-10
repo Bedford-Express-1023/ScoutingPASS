@@ -99,14 +99,9 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
-      "Upper Cargo Missed": {
+      "Cargo Missed": {
         "code":"tm",
-        "title": "Uppoer Cargo Missed",
-        "type":"counter"
-      },
-      "Lower Cargo Missed": {
-        "code":"tn",
-        "title": "Lower Cargo Missed",
+        "title": "Upper Cargo Missed",
         "type":"counter"
       },
       "Was Defended": {
@@ -126,12 +121,6 @@ var config_data = `
         },
         "defaultValue":"x",
 	"required":"true"
-      },
-      "Shooting Spot": {
-        "code":"ss",
-        "title": "Shooting Spot",
-        "type":"field_image",
-        "filename":"2022/field_image.png"
       }
     },
     "endgame": {
