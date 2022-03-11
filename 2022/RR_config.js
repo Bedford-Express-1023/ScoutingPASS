@@ -127,7 +127,13 @@ var config_data = `
         },
         "defaultValue":"x",
 	"required":"true"
-      }
+      },
+       "Shooting Spot": {
+        "code":"ss",
+        "title": "Shooting Spot",
+        "type":"field_image",
+        "filename":"2022/field_image.png"
+     }
     },
     "endgame": {
       "Climb": {
