@@ -82,16 +82,6 @@ var config_data = `
         "code":"ac",
         "title": "Picked up more cargo?",
         "type":"bool"
-      },
-      "Human Player Top Goal": {
-        "code":"ug",
-        "title": "Human Player Top Goal",
-        "type":"counter"
-      },
-      "Human Player Low Goal": {
-        "code":"lg",
-        "title": "Human Player Low Goal",
-        "type":"counter"
       }
     },
     "teleop": {
