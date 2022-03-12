@@ -126,6 +126,16 @@ var config_data = `
      }
     },
     "endgame": {
+      "Upper Cargo Scored": {
+        "code":"eu",
+        "title": "Uppoer Cargo Scored",
+        "type":"counter"
+      },
+      "Lower Cargo Scored": {
+        "code":"el",
+        "title": "Lower Cargo Scored",
+        "type":"counter"
+      },
       "Climb": {
         "code":"c",
         "title": "Climb",
