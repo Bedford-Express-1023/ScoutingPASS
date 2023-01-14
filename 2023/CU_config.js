@@ -120,8 +120,8 @@ var config_data = `
       "code": "tol",
       "type": "counter"
     },
-    { "name": "Feeder Count",
-      "code": "tfc",
+    { "name": "Cargo Missed",
+      "code": "tcm",
       "type": "counter"
     },
     { "name": "Was Defended",
