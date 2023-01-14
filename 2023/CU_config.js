@@ -137,9 +137,33 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Docking Timer",
-      "code": "dt",
-      "type": "timer"
+    { "name": "High Cube Scored",
+      "code": "tuh",
+      "type": "counter"
+    },
+    { "name": "Medium Cube Scored",
+      "code": "tum",
+      "type": "counter"
+    },
+    { "name": "Low Cube Scored",
+      "code": "tul",
+      "type": "counter"
+    },
+    { "name": "High Cone Scored",
+      "code": "toh",
+      "type": "counter"
+    },
+    { "name": "Medium Cone Scored",
+      "code": "tom",
+      "type": "counter"
+    },
+    { "name": "Low Cone Scored",
+      "code": "tol",
+      "type": "counter"
+    },
+    { "name": "Cargo Missed",
+      "code": "tcm",
+      "type": "counter"
     },
     { "name": "Final Status",
       "code": "fs",
