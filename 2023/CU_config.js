@@ -74,6 +74,11 @@ var config_data = `
       "code": "aol",
       "type": "counter"
     },
+    {
+      "name": "Cargo Missed",
+      "code": "acm",
+      "type": "counter"
+    },
     { "name": "Docked",
       "code": "ad",
       "type":"radio",
