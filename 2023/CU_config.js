@@ -76,7 +76,7 @@ var config_data = `
     },
     {
       "name": "Cargo Missed",
-      "code": "aom",
+      "code": "adm",
       "type": "counter"
     },
     { "name": "Docked",
