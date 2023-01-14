@@ -117,7 +117,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Cargo Missed",
-      "code": "tcm"
+      "code": "tcm",
       "type": "counter"
     },
     { "name": "Was Defended By",
