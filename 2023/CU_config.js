@@ -43,13 +43,6 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
-<<<<<<< HEAD
-    },
-    { "name": "Preload"
-      "code": "p"
-      "type": "bool"
-=======
->>>>>>> parent of 9cbc9f8 (Update CU_config.js)
     }
   ],
   "auton": [
