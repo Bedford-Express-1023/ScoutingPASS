@@ -74,8 +74,9 @@ var config_data = `
       "code": "aol",
       "type": "counter"
     },
-    { "name": "Cargo Missed",
-      "code": "acm",
+    {
+      "name": "Cargo Missed",
+      "code": "aom",
       "type": "counter"
     },
     { "name": "Docked",
