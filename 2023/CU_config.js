@@ -92,10 +92,6 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Cycle Timer",
-      "code": "tct",
-      "type": "cycle"
-    },
     { "name": "High Cube Scored",
       "code": "tuh",
       "type": "counter"
@@ -120,17 +116,13 @@ var config_data = `
       "code": "tol",
       "type": "counter"
     },
-    { "name": "Feeder Count",
-      "code": "tfc",
+    { "name": "Cargo Missed",
+      "code": "tcm"
       "type": "counter"
     },
-    { "name": "Was Defended",
+    { "name": "Was Defended By",
       "code": "wd",
-      "type": "bool"
-    },
-    { "name": "Smart Placement (creates Links)",
-      "code": "lnk",
-      "type": "bool"
+      "type": "text"
     },
     { "name": "Cargo Intake From",
       "code": "cif",
