@@ -128,10 +128,6 @@ var config_data = `
       "code": "wd",
       "type": "bool"
     },
-    { "name": "Smart Placement (creates Links)",
-      "code": "lnk",
-      "type": "bool"
-    },
     { "name": "Cargo Intake From",
       "code": "cif",
       "type": "radio",
