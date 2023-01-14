@@ -15,22 +15,14 @@ var checkboxAs = 'YN';
 
 // Options
 var options = {
-<<<<<<< HEAD
-	text: "team_number=9998;match_number=99;r=b1;s=rjs;d=0;to=0;ds=5;if=0;f=15;cf=0;in=1;alp=5;aop=5;aip=5;apu=5;atr=1;atro=0;lp=20;op=10;ip=10;rc=0;pc=0;ss=[(111,111),(111,111),(111,111),(111,111),(111,111),(111,111),(111,111)];c=1;hbc=0;ac=1;hc=0;cb=0;cs=3;nh=0;p=0;b=0;tr=1;ct=3;dr=3;comm='good shooter; shot from all over the field'",
-	correctLevel: QRCode.CorrectLevel.L,
-    quietZone: 15,
-    quietZoneColor: '#FFFFFF'
-=======
   correctLevel: QRCode.CorrectLevel.L,
   quietZone: 15,
   quietZoneColor: '#FFFFFF'
->>>>>>> a0e65bf2f66b1974662483bbc809e06720ab011b
 };
 
 // Must be filled in: e=event, m=match#, l=level(q,qf,sf,f), t=team#, r=robot(r1,r2,b1..), s=scouter
 //var requiredFields = ["e", "m", "l", "t", "r", "s", "as"];
-var requiredFields = ["e", "m", "s", "as","r","t"];
-
+var requiredFields = ["e", "m", "l", "r", "s", "as"];
 
 function addTimer(table, idx, name, data) {
   var row = table.insertRow(idx);
@@ -677,8 +669,6 @@ function resetRobot() {
   }
 }
 
-<<<<<<< HEAD
-=======
 
 function getLevel() {
   if (document.getElementById("input_l_qm").checked) {
@@ -703,7 +693,6 @@ function validateLevel() {
   }
 }
 
->>>>>>> a0e65bf2f66b1974662483bbc809e06720ab011b
 function validateData() {
   var ret = true
   var errStr = "Bad fields: ";
