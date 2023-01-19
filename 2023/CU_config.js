@@ -220,16 +220,6 @@ var config_data = `
       "type": "text",
       "size": 15,
       "maxSize": 50
-    },
-    { "name": "Confidence Rating",
-      "code": "cnf",
-      "type": "radio",
-      "choices": {
-        "v": "Very Confident<br>",
-        "a": "Average<br>",
-        "n": "Not Confident"
-        },
-      "defaultValue": "a"
     }
   ]
 }`;
