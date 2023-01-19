@@ -43,6 +43,11 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
+    },
+    {
+      "name": "Preload"
+      "code": "p"
+      "type": "bool"
     }
   ],
   "auton": [
