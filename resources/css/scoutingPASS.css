@@ -87,15 +87,19 @@ html, body{
 }
 
 #auton{
+    background-color: black;
 }
 
 #teleop{
+    background-color: black;
 }
 
 #endgame{
+    background-color: black;
 }
 
 #postmatch{
+    background-color: black;
 }
 
 #qr-code{
@@ -151,7 +155,7 @@ h2{
 #nextButton1, #nextButton2, #nextButton9, #nextButton10, .clearForm, .submitForm, #displayButton, #copyButton {
     font-family: Alexis; 
     padding: 10px;
-    background-color: rgb(151, 199, 240);
+    background-color: white;
     text-decoration: none;
     display: inline-block;
 }
