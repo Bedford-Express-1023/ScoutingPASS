@@ -203,10 +203,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Swerve drive?",
-      "code": "sd",
-      "type": "bool"
-    },
     { "name": "Died/Tipped",
       "code": "d",
       "type": "bool"
