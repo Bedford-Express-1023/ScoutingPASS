@@ -142,31 +142,31 @@ var config_data =
   ],
   "endgame": [
     { "name": "E High Cube Scored",
-      "code": "euh",
+      "code": "tuh",
       "type": "counter"
     },
     { "name": "E Medium Cube Scored",
-      "code": "eum",
+      "code": "tum",
       "type": "counter"
     },
     { "name": "E Low Cube Scored",
-      "code": "eul",
+      "code": "tul",
       "type": "counter"
     },
     { "name": "E High Cone Scored",
-      "code": "eoh",
+      "code": "toh",
       "type": "counter"
     },
     { "name": "E Medium Cone Scored",
-      "code": eom",
+      "code": tom",
       "type": "counter"
     },
     { "name": "E Low Cone Scored",
-      "code": "eol",
+      "code": "tol",
       "type": "counter"
     },
     { "name": "E Cargo Missed",
-      "code": "ecm",
+      "code": "tcm",
       "type": "counter"
     },
     { "name": "Final Status",
