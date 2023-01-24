@@ -43,6 +43,10 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
+    },
+    { "name": "Preload?",
+      "code": "p",
+      "type": "bool"
     }
   ],
   "auton": [
@@ -76,7 +80,7 @@ var config_data = `
     },
     {
       "name": "Cargo Missed",
-      "code": "acm",
+      "code": "adm",
       "type": "counter"
     },
     { "name": "Docked",
@@ -92,10 +96,6 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Cycle Timer",
-      "code": "tct",
-      "type": "cycle"
-    },
     { "name": "High Cube Scored",
       "code": "tuh",
       "type": "counter"
@@ -120,16 +120,12 @@ var config_data = `
       "code": "tol",
       "type": "counter"
     },
-    { "name": "Feeder Count",
-      "code": "tfc",
+    { "name": "Cargo Missed",
+      "code": "tcm",
       "type": "counter"
     },
     { "name": "Was Defended",
       "code": "wd",
-      "type": "bool"
-    },
-    { "name": "Smart Placement (creates Links)",
-      "code": "lnk",
       "type": "bool"
     },
     { "name": "Cargo Intake From",
@@ -145,9 +141,33 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Docking Timer",
-      "code": "dt",
-      "type": "timer"
+    { "name": "E High Cube Scored",
+      "code": "euh",
+      "type": "counter"
+    },
+    { "name": "E Medium Cube Scored",
+      "code": "eum",
+      "type": "counter"
+    },
+    { "name": "E Low Cube Scored",
+      "code": "eul",
+      "type": "counter"
+    },
+    { "name": "E High Cone Scored",
+      "code": "eoh",
+      "type": "counter"
+    },
+    { "name": "E Medium Cone Scored",
+      "code": eom",
+      "type": "counter"
+    },
+    { "name": "E Low Cone Scored",
+      "code": "eol",
+      "type": "counter"
+    },
+    { "name": "E Cargo Missed",
+      "code": "ecm",
+      "type": "counter"
     },
     { "name": "Final Status",
       "code": "fs",
@@ -167,17 +187,6 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
     { "name": "Links Scored",
       "code": "ls",
       "type": "counter"
@@ -194,22 +203,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Swerve drive?",
-      "code": "sd",
-      "type": "bool"
-    },
-    { "name": "Speed Rating",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "1 (slow)<br>",
-        "2": "2<br>",
-        "3": "3<br>",
-        "4": "4<br>",
-        "5": "5 (fast)"
-      },
-      "defaultValue":"3"
-    },
     { "name": "Died/Tipped",
       "code": "d",
       "type": "bool"
@@ -218,26 +211,11 @@ var config_data = `
       "code": "coo",
       "type": "bool"
     },
-    { "name": "Make good alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
-      "type": "bool"
-    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
       "size": 15,
       "maxSize": 50
-    },
-    { "name": "Confidence Rating",
-      "code": "cnf",
-      "type": "radio",
-      "choices": {
-        "v": "Very Confident<br>",
-        "a": "Average<br>",
-        "n": "Not Confident"
-        },
-      "defaultValue": "a"
     }
   ]
 }`;
