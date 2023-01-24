@@ -97,31 +97,31 @@ var config_data =
   ],
   "teleop": [
     { "name": "High Cube Scored",
-      "code": "ttuh",
+      "code": "tuh",
       "type": "counter"
     },
     { "name": "Medium Cube Scored",
-      "code": "ttum",
+      "code": "tum",
       "type": "counter"
     },
     { "name": "Low Cube Scored",
-      "code": "ttul",
+      "code": "tul",
       "type": "counter"
     },
     { "name": "High Cone Scored",
-      "code": "ttoh",
+      "code": "toh",
       "type": "counter"
     },
     { "name": "Medium Cone Scored",
-      "code": "ttom",
+      "code": "tom",
       "type": "counter"
     },
     { "name": "Low Cone Scored",
-      "code": "ttol",
+      "code": "tol",
       "type": "counter"
     },
     { "name": "Cargo Missed",
-      "code": "ttcm",
+      "code": "tcm",
       "type": "counter"
     },
     { "name": "Was Defended",
@@ -141,31 +141,31 @@ var config_data =
     }
   ],
   "endgame": [
-    { "name": "E High Cube Scored",
+    { "name": "High Cube Scored",
       "code": "tuh",
       "type": "counter"
     },
-    { "name": "E Medium Cube Scored",
+    { "name": "Medium Cube Scored",
       "code": "tum",
       "type": "counter"
     },
-    { "name": "E Low Cube Scored",
+    { "name": "Low Cube Scored",
       "code": "tul",
       "type": "counter"
     },
-    { "name": "E High Cone Scored",
+    { "name": "High Cone Scored",
       "code": "toh",
       "type": "counter"
     },
-    { "name": "E Medium Cone Scored",
+    { "name": "Medium Cone Scored",
       "code": "tom",
       "type": "counter"
     },
-    { "name": "E Low Cone Scored",
+    { "name": "Low Cone Scored",
       "code": "tol",
       "type": "counter"
     },
-    { "name": "E Cargo Missed",
+    { "name": "Cargo Missed",
       "code": "tcm",
       "type": "counter"
     },
