@@ -97,31 +97,31 @@ var config_data =
   ],
   "teleop": [
     { "name": "High Cube Scored",
-      "code": "tuh",
+      "code": "ttuh",
       "type": "counter"
     },
     { "name": "Medium Cube Scored",
-      "code": "tum",
+      "code": "ttum",
       "type": "counter"
     },
     { "name": "Low Cube Scored",
-      "code": "tul",
+      "code": "ttul",
       "type": "counter"
     },
     { "name": "High Cone Scored",
-      "code": "toh",
+      "code": "ttoh",
       "type": "counter"
     },
     { "name": "Medium Cone Scored",
-      "code": "tom",
+      "code": "ttom",
       "type": "counter"
     },
     { "name": "Low Cone Scored",
-      "code": "tol",
+      "code": "ttol",
       "type": "counter"
     },
     { "name": "Cargo Missed",
-      "code": "tcm",
+      "code": "ttcm",
       "type": "counter"
     },
     { "name": "Was Defended",
@@ -158,7 +158,7 @@ var config_data =
       "type": "counter"
     },
     { "name": "E Medium Cone Scored",
-      "code": tom",
+      "code": "tom",
       "type": "counter"
     },
     { "name": "E Low Cone Scored",
@@ -218,4 +218,4 @@ var config_data =
       "maxSize": 50
     }
   ]
-}`;
+}
