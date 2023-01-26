@@ -158,15 +158,15 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Medium Cone Scored",
-      "code": "tom",
+      "code": "eom",
       "type": "counter"
     },
     { "name": "Low Cone Scored",
-      "code": "tol",
+      "code": "eol",
       "type": "counter"
     },
     { "name": "Cargo Missed",
-      "code": "tcm",
+      "code": "ecm",
       "type": "counter"
     },
     { "name": "Final Status",
