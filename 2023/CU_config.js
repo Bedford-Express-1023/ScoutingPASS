@@ -142,7 +142,7 @@ var config_data = `
   ],
   "endgame": [
     { "name": "High Cube Scored",
-      "code": "tuh",
+      "code": "euh",
       "type": "counter"
     },
     { "name": "Medium Cube Scored",
