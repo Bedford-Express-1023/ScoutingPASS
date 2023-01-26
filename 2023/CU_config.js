@@ -146,15 +146,15 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Medium Cube Scored",
-      "code": "tum",
+      "code": "eum",
       "type": "counter"
     },
     { "name": "Low Cube Scored",
-      "code": "tul",
+      "code": "eul",
       "type": "counter"
     },
     { "name": "High Cone Scored",
-      "code": "toh",
+      "code": "eoh",
       "type": "counter"
     },
     { "name": "Medium Cone Scored",
