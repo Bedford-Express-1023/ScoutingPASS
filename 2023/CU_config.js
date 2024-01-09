@@ -47,42 +47,21 @@ var config_data = `
       "code": "am",
       "type": "bool"
     },
-    { "name": "High Cube Scored",
-      "code": "auh",
+    { "name": "Amp Rings",
+      "code": "aar",
       "type": "counter"
     },
-    { "name": "Medium Cube Scored",
-      "code": "aum",
+    { "name": "Speaker Rings",
+      "code": "asr",
       "type": "counter"
     },
-    { "name": "Low Cube Scored",
-      "code": "aul",
-      "type": "counter"
-    },
-    { "name": "High Cone Scored",
-      "code": "aoh",
-      "type": "counter"
-    },
-    { "name": "Medium Cone Scored",
-      "code": "aom",
-      "type": "counter"
-    },
-    { "name": "Low Cone Scored",
-      "code": "aol",
-      "type": "counter"
-    },
-    {
-      "name": "Cargo Missed",
-      "code": "adm",
-      "type": "counter"
-    },
-    { "name": "Docked",
-      "code": "ad",
+    { "name": "Ring Pick Up Spot",
+      "code": "rps",
       "type":"radio",
       "choices": {
-        "d": "Docked (not Engaged)<br>",
-        "e": "Engaged<br>",
-        "a": "Attempted but failed<br>",
+        "f": "Front 3<br>",
+        "m": "Middle Line<br>",
+        "b": "Both<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
