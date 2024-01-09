@@ -75,43 +75,31 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "High Cube Scored",
-      "code": "tuh",
+    { "name": "Non-Amp Speaker Rings",
+      "code": "tns",
       "type": "counter"
     },
-    { "name": "Medium Cube Scored",
-      "code": "tum",
+    { "name": "Non-Amp Amp Rings",
+      "code": "tna",
       "type": "counter"
     },
-    { "name": "Low Cube Scored",
-      "code": "tul",
+    { "name": "Amped Speaker Rings",
+      "code": "tas",
       "type": "counter"
     },
-    { "name": "High Cone Scored",
-      "code": "toh",
+    { "name": "Amped Amp Rings",
+      "code": "taa",
       "type": "counter"
     },
-    { "name": "Medium Cone Scored",
-      "code": "tom",
+    { "name": "Notes Missed",
+      "code": "tnm",
       "type": "counter"
-    },
-    { "name": "Low Cone Scored",
-      "code": "tol",
-      "type": "counter"
-    },
-    { "name": "Cargo Missed",
-      "code": "tcm",
-      "type": "counter"
-    },
-    { "name": "Was Defended",
-      "code": "wd",
-      "type": "bool"
     },
     { "name": "Cargo Intake From",
       "code": "cif",
       "type": "radio",
       "choices": {
-        "t": "Substation<br>",
+        "s": "Sourse<br>",
         "g": "Ground<br>",
         "b": "Both<br>",
         "x": "Not Attempted"
