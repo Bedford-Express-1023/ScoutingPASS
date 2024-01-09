@@ -1,7 +1,7 @@
 var config_data = `
 {
-  "title": "Scouting PASS 2023",
-  "page_title": "Charged Up",
+  "title": "Scouting PASS 2024",
+  "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -10,13 +10,6 @@ var config_data = `
       "size": 5,
       "maxSize": 5,
       "required": "true"
-    },
-    { "name": "Event",
-      "code": "e",
-      "type": "event",
-      "defaultValue": "2023ilch",
-      "required": "true",
-      "disabled": "true"
     },
     { "name": "Match #",
       "code": "m",
