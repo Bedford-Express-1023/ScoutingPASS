@@ -11,6 +11,13 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
+    { "name": "Event",
+      "code": "e",
+      "type": "event",
+      "defaultValue": "2023ilch",
+      "required": "true",
+      "disabled": "true"
+    },
     { "name": "Match #",
       "code": "m",
       "type": "match",
