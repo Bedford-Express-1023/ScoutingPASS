@@ -141,6 +141,6 @@ var config_data = `
     { "name": "Died/Tipped",
       "code": "d",
       "type": "bool"
-    },
+    }
   ]
 }`;
