@@ -126,10 +126,6 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Links Scored",
-      "code": "ls",
-      "type": "counter"
-    },
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
@@ -146,15 +142,5 @@ var config_data = `
       "code": "d",
       "type": "bool"
     },
-    { "name": "Avoided coopertition",
-      "code": "coo",
-      "type": "bool"
-    },
-    { "name": "Comments",
-      "code": "co",
-      "type": "text",
-      "size": 15,
-      "maxSize": 50
-    }
   ]
 }`;
