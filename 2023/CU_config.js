@@ -108,49 +108,21 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "High Cube Scored",
-      "code": "euh",
-      "type": "counter"
+    { "name": "Robot Climbed?",
+      "code": "erc",
+      "type": "bool"
     },
-    { "name": "Medium Cube Scored",
-      "code": "eum",
-      "type": "counter"
+    { "name": "Harmony?",
+      "code": "eh",
+      "type": "bool"
     },
-    { "name": "Low Cube Scored",
-      "code": "eul",
-      "type": "counter"
+    { "name": "Microphone?",
+      "code": "em",
+      "type": "bool"
     },
-    { "name": "High Cone Scored",
-      "code": "eoh",
-      "type": "counter"
-    },
-    { "name": "Medium Cone Scored",
-      "code": "eom",
-      "type": "counter"
-    },
-    { "name": "Low Cone Scored",
-      "code": "eol",
-      "type": "counter"
-    },
-    { "name": "Cargo Missed",
-      "code": "ecm",
-      "type": "counter"
-    },
-    { "name": "Final Status",
-      "code": "fs",
-      "type":"radio",
-      "choices": {
-        "p": "Parked<br>",
-        "d": "Docked (Not Engaged)<br>",
-        "e": "Engaged<br>",
-        "a": "Attempted but failed<br>",
-        "x": "Not attempted"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "# of alliance bots docked/engaged",
-      "code": "cn",
-      "type": "counter"
+    { "name": "Trapdoor Hit?",
+      "code": "etd",
+      "type": "bool"
     }
   ],
   "postmatch": [
