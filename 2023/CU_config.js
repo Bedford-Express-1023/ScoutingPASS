@@ -79,12 +79,12 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Non-Amp Speaker Rings",
-      "code": "tns",
-      "type": "counter"
-    },
     { "name": "Amp Rings",
       "code": "tar",
+      "type": "counter"
+    },
+    { "name": "Non-Amp Speaker Rings",
+      "code": "tns",
       "type": "counter"
     },
     { "name": "Amped Speaker Rings",
