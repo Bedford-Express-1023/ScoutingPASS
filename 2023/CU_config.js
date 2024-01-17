@@ -79,16 +79,12 @@ var config_data = `
       "code": "tns",
       "type": "counter"
     },
-    { "name": "Non-Amp Amp Rings",
-      "code": "tna",
+    { "name": "Amp Rings",
+      "code": "tar",
       "type": "counter"
     },
     { "name": "Amped Speaker Rings",
       "code": "tas",
-      "type": "counter"
-    },
-    { "name": "Amped Amp Rings",
-      "code": "taa",
       "type": "counter"
     },
     { "name": "Notes Missed",
