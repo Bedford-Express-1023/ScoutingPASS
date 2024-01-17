@@ -62,6 +62,10 @@ var config_data = `
       "code": "asr",
       "type": "counter"
     },
+    { "name": "Notes Missed",
+      "code": "tnm",
+      "type": "counter"
+    },
     { "name": "Ring Pick Up Spot",
       "code": "rps",
       "type":"radio",
