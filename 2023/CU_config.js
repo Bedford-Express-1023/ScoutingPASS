@@ -70,10 +70,10 @@ var config_data = `
       "code": "rps",
       "type":"radio",
       "choices": {
-        "f": "Front 3<br>",
-        "m": "Middle Line<br>",
-        "b": "Both<br>",
-        "x": "Not attempted"
+        "Front": "Front 3<br>",
+        "Middle Line": "Middle Line<br>",
+        "Both": "Both<br>",
+        "N/A": "Not attempted"
       },
       "defaultValue": "x"
     }
