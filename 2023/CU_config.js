@@ -119,7 +119,7 @@ var config_data = `
         "abf": "Attempted but Failed<br>",
         "na": "Not Attempted"
       },
-      { "name": "Note in Trap?",
+    { "name": "Note in Trap?",
       "code": "td",
       "type": "bool"
     }
