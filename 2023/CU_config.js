@@ -108,22 +108,21 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Robot Climbed?",
-      "code": "erc",
+    { "name": "Final Status",
+      "code": "efs",
+      "type": "radio",
+      "choices": {
+        "p": "Parked<br>",
+        "o": "Onstage<br>",
+        "os": "Onstage (Spotlit) <br>",
+        "h": "Harmony<br>",
+        "abf": "Attempted but Failed<br>",
+        "na": "Not Attempted"
+      },
+      { "name": "Note in Trap?",
+      "code": "td",
       "type": "bool"
     },
-    { "name": "Harmony?",
-      "code": "eh",
-      "type": "bool"
-    },
-    { "name": "Microphone?",
-      "code": "em",
-      "type": "bool"
-    },
-    { "name": "Trapdoor Hit?",
-      "code": "etd",
-      "type": "bool"
-    }
   ],
   "postmatch": [
     { "name": "Defense Rating",
