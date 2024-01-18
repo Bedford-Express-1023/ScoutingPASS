@@ -122,6 +122,8 @@ var config_data = `
     { "name": "Note in Trap?",
       "code": "td",
       "type": "bool"
+      },
+      "defaultValue": "x"
     }
   ],
   "postmatch": [
