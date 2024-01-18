@@ -122,7 +122,7 @@ var config_data = `
       { "name": "Note in Trap?",
       "code": "td",
       "type": "bool"
-    },
+    }
   ],
   "postmatch": [
     { "name": "Defense Rating",
