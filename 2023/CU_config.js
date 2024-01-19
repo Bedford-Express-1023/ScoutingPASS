@@ -119,11 +119,10 @@ var config_data = `
         "abf": "Attempted but Failed<br>",
         "na": "Not Attempted"
       },
+      "defaultValue": "x"
     { "name": "Note in Trap?",
       "code": "td",
       "type": "bool"
-      },
-      "defaultValue": "x"
     }
   ],
   "postmatch": [
