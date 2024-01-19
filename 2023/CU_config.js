@@ -124,6 +124,14 @@ var config_data = `
     { "name": "Note in Trap?",
       "code": "td",
       "type": "bool"
+    },
+    { "name": "Spotlight",
+    "code": "sl",
+    "type": "bool"
+    },
+    { "name": "Harmonized (2nd or 3rd robot on chain)",
+      "code": "h",
+      "type": "bool"
     }
   ],
   "postmatch": [
