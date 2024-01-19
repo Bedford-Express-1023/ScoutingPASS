@@ -114,16 +114,10 @@ var config_data = `
       "choices": {
         "p": "Parked<br>",
         "o": "Onstage<br>",
-        "os": "Onstage (Spotlit) <br>",
-        "h": "Harmony<br>",
         "abf": "Attempted but Failed<br>",
         "na": "Not Attempted"
       },
       "defaultValue": "x"
-    },
-    { "name": "Note in Trap?",
-      "code": "td",
-      "type": "bool"
     },
     { "name": "Spotlight",
     "code": "sl",
@@ -131,6 +125,10 @@ var config_data = `
     },
     { "name": "Harmonized (2nd or 3rd robot on chain)",
       "code": "h",
+      "type": "bool"
+    },
+    { "name": "Note in Trap?",
+      "code": "td",
       "type": "bool"
     }
   ],
