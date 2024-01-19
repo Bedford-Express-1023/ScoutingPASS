@@ -120,6 +120,7 @@ var config_data = `
         "na": "Not Attempted"
       },
       "defaultValue": "x"
+    },
     { "name": "Note in Trap?",
       "code": "td",
       "type": "bool"
