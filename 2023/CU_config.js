@@ -54,20 +54,20 @@ var config_data = `
       "code": "am",
       "type": "bool"
     },
-    { "name": "Amp Rings",
-      "code": "aar",
+    { "name": "Amp Notes",
+      "code": "aan",
       "type": "counter"
     },
-    { "name": "Speaker Rings",
-      "code": "asr",
+    { "name": "Speaker Notes",
+      "code": "asn",
       "type": "counter"
     },
     { "name": "Notes Missed",
       "code": "tnm",
       "type": "counter"
     },
-    { "name": "Ring Pick Up Spot",
-      "code": "rps",
+    { "name": "Note Pick Up Spot",
+      "code": "nps",
       "type":"radio",
       "choices": {
         "Front": "Front 3<br>",
@@ -79,16 +79,16 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Amp Rings",
-      "code": "tar",
+    { "name": "Amp Notes",
+      "code": "tan",
       "type": "counter"
     },
-    { "name": "Non-Amp Speaker Rings",
+    { "name": "Non-Amp Speaker Notes",
       "code": "tns",
       "type": "counter"
     },
-    { "name": "Amped Speaker Rings",
-      "code": "tas",
+    { "name": "Amped Speaker Notes",
+      "code": "tan",
       "type": "counter"
     },
     { "name": "Notes Missed",
@@ -99,10 +99,10 @@ var config_data = `
       "code": "cif",
       "type": "radio",
       "choices": {
-        "s": "Sourse<br>",
-        "g": "Ground<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
+        "Source": "Source<br>",
+        "Ground": "Ground<br>",
+        "Both": "Both<br>",
+        "NA": "Not Attempted"
       },
       "defaultValue": "x"
     }
@@ -112,10 +112,10 @@ var config_data = `
       "code": "efs",
       "type": "radio",
       "choices": {
-        "p": "Parked<br>",
-        "o": "Onstage<br>",
+        "Parked": "Parked<br>",
+        "Onstage": "Onstage<br>",
         "abf": "Attempted but Failed<br>",
-        "na": "Not Attempted"
+        "NA": "Not Attempted"
       },
       "defaultValue": "x"
     },
@@ -137,11 +137,11 @@ var config_data = `
       "code": "dr",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
+        "BA": "Below Average<br>",
         "a": "Average<br>",
         "g": "Good<br>",
         "e": "Excellent<br>",
-        "x": "Did not play defense"
+        "NA": "Did not play defense"
       },
       "defaultValue": "x"
     },
