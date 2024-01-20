@@ -73,7 +73,7 @@ var config_data = `
         "Front": "Front 3<br>",
         "Middle Line": "Middle Line<br>",
         "Both": "Both<br>",
-        "Not Attempted": "Not attempted"
+        "DNA": "Not attempted"
       },
       "defaultValue": "x"
     }
@@ -102,7 +102,7 @@ var config_data = `
         "Source": "Source<br>",
         "Ground": "Ground<br>",
         "Both": "Both<br>",
-        "Not Attempted": "Not Attempted"
+        "DNA": "Not Attempted"
       },
       "defaultValue": "x"
     }
@@ -115,7 +115,7 @@ var config_data = `
         "Parked": "Parked<br>",
         "Onstage": "Onstage<br>",
         "abf": "Attempted but Failed<br>",
-        "Not Attempted": "Not Attempted"
+        "DNA": "Not Attempted"
       },
       "defaultValue": "x"
     },
@@ -141,7 +141,7 @@ var config_data = `
         "a": "Average<br>",
         "g": "Good<br>",
         "e": "Excellent<br>",
-        "NA": "Did not play defense"
+        "DNPD": "Did not play defense"
       },
       "defaultValue": "x"
     },
