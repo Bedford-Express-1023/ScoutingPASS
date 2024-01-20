@@ -63,7 +63,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Notes Missed",
-      "code": "tnm",
+      "code": "anm",
       "type": "counter"
     },
     { "name": "Note Pick Up Spot",
@@ -88,7 +88,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Amped Speaker Notes",
-      "code": "tan",
+      "code": "tasn",
       "type": "counter"
     },
     { "name": "Notes Missed",
