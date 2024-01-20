@@ -73,7 +73,7 @@ var config_data = `
         "Front": "Front 3<br>",
         "Middle Line": "Middle Line<br>",
         "Both": "Both<br>",
-        "N/A": "Not attempted"
+        "Not Attempted": "Not attempted"
       },
       "defaultValue": "x"
     }
@@ -102,7 +102,7 @@ var config_data = `
         "Source": "Source<br>",
         "Ground": "Ground<br>",
         "Both": "Both<br>",
-        "NA": "Not Attempted"
+        "Not Attempted": "Not Attempted"
       },
       "defaultValue": "x"
     }
@@ -115,7 +115,7 @@ var config_data = `
         "Parked": "Parked<br>",
         "Onstage": "Onstage<br>",
         "abf": "Attempted but Failed<br>",
-        "NA": "Not Attempted"
+        "Not Attempted": "Not Attempted"
       },
       "defaultValue": "x"
     },
