@@ -83,15 +83,11 @@ var config_data = `
       "code": "tan",
       "type": "counter"
     },
-    { "name": "Non-Amp Speaker Notes",
-      "code": "tns",
+    { "name": "Speaker Notes",
+      "code": "tsn",
       "type": "counter"
     },
-    { "name": "Amped Speaker Notes",
-      "code": "tasn",
-      "type": "counter"
-    },
-    { "name": "Notes Missed",
+        { "name": "Notes Missed",
       "code": "tnm",
       "type": "counter"
     },
