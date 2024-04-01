@@ -88,9 +88,9 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Feeding Shot",
-  "code": "fs",
-"type": "counter"
-},
+      "code": "fs",
+      "type": "counter"
+    },
         { "name": "Notes Missed",
       "code": "tnm",
       "type": "counter"
@@ -148,10 +148,10 @@ var config_data = `
     { "name": "Temporarily Immobilized",
     "code": "ti",
     "type": "bool"
-  },
-  {"name": "Broke",
-"code": "b",
-"type": "bool"
-},
+   },
+   {"name": "Broke",
+    "code": "b",
+    "type": "bool"
+   }
 ]
 }`;
