@@ -89,8 +89,8 @@ var config_data = `
     },
     { "name": "Feeding Shot",
   "code": "fs",
-"type", "counter"
-}
+"type": "counter"
+},
         { "name": "Notes Missed",
       "code": "tnm",
       "type": "counter"
