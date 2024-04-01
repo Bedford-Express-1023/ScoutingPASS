@@ -87,6 +87,10 @@ var config_data = `
       "code": "tsn",
       "type": "counter"
     },
+    { "name": "Feeding Shot",
+  "code": "fs",
+"type", "counter"
+}
         { "name": "Notes Missed",
       "code": "tnm",
       "type": "counter"
@@ -115,10 +119,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Spotlight",
-    "code": "sl",
-    "type": "bool"
-    },
     { "name": "Harmonized (2nd or 3rd robot on chain)",
       "code": "h",
       "type": "bool"
@@ -141,9 +141,17 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Died/Tipped",
-      "code": "d",
+    { "name": "Permanently Immobilized",
+      "code": "pi",
       "type": "bool"
-    }
-  ]
+    },
+    { "name": "Temporarily Immobilized",
+    "code": "ti",
+    "type": "bool"
+  },
+  {"name": "Broke",
+"code": "b",
+"type": "bool"
+},
+]
 }`;
