@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2023ilch",
+      "defaultValue": "2025ilch",
       "required": "true",
       "disabled": "true"
     },
@@ -54,16 +54,24 @@ var config_data = `
       "code": "am",
       "type": "bool"
     },
-    { "name": "Amp Notes",
-      "code": "aan",
+    { "name": "Bucket Coral",
+      "code": "abc",
       "type": "counter"
     },
-    { "name": "Speaker Notes",
-      "code": "asn",
+    { "name": "Low Rung Coral",
+      "code": "alc",
       "type": "counter"
     },
-    { "name": "Notes Missed",
-      "code": "anm",
+    { "name": "Mid Rung Coral",
+      "code": "amc",
+      "type": "counter"
+    },
+    { "name": "High Rung Coral",
+      "code": "ahc",
+      "type": "counter"
+    },
+    { "name": "Coral Missed",
+      "code": "acm",
       "type": "counter"
     },
     { "name": "Note Pick Up Spot",
