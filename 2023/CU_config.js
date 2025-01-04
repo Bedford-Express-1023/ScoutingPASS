@@ -1,7 +1,7 @@
 var config_data = `
 {
-  "title": "Scouting PASS 2024",
-  "page_title": "Crescendo",
+  "title": "Scouting PASS 2025",
+  "page_title": "Reefscape",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
