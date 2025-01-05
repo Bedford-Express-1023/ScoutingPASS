@@ -99,32 +99,48 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Amp Notes",
-      "code": "tan",
+    { "name": "Bucket Coral",
+      "code": "tbc",
       "type": "counter"
     },
-    { "name": "Speaker Notes",
-      "code": "tsn",
+    { "name": "Low Rung Coral",
+      "code": "tlc",
       "type": "counter"
     },
-    { "name": "Feeding Shot",
-      "code": "fs",
+    { "name": "Mid Rung Coral",
+      "code": "tmc",
       "type": "counter"
     },
-        { "name": "Notes Missed",
-      "code": "tnm",
+    { "name": "High Rung Coral",
+      "code": "thc",
+      "type": "counter"
+    },
+    { "name": "Coral Missed",
+      "code": "tcm",
+      "type": "counter"
+    },
+    { "name": "Net Algea",
+      "code": "tna",
+      "type": "counter"
+    },
+    { "name": "Processor Algea",
+      "code": "tpa",
+      "type": "counter"
+    },
+    { "name": "Algea Missed",
+      "code": "tam",
       "type": "counter"
     },
     { "name": "Cargo Intake From",
-      "code": "cif",
+      "code": "tci",
       "type": "radio",
       "choices": {
-        "Source": "Source<br>",
+        "Station": "Human Player Station<br>",
         "Ground": "Ground<br>",
         "Both": "Both<br>",
         "DNA": "Not Attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "DNA"
     }
   ],
   "endgame": [
