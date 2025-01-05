@@ -74,16 +74,28 @@ var config_data = `
       "code": "acm",
       "type": "counter"
     },
-    { "name": "Note Pick Up Spot",
-      "code": "nps",
+    { "name": "Net Algea",
+      "code": "ana",
+      "type": "counter"
+    },
+    { "name": "Processor Algea",
+      "code": "apa",
+      "type": "counter"
+    },
+    { "name": "Algea Missed",
+      "code": "aam",
+      "type": "counter"
+    },
+    { "name": "Coral Pick Up Spot",
+      "code": "cps",
       "type":"radio",
       "choices": {
-        "Front": "Front 3<br>",
-        "Middle Line": "Middle Line<br>",
+        "Station": "Human Player Station<br>",
+        "Ground": "Ground<br>",
         "Both": "Both<br>",
         "DNA": "Not attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "DNA"
     }
   ],
   "teleop": [
