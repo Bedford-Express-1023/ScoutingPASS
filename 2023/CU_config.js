@@ -74,15 +74,15 @@ var config_data = `
       "code": "acm",
       "type": "counter"
     },
-    { "name": "Net Algea",
+    { "name": "Net Algae",
       "code": "ana",
       "type": "counter"
     },
-    { "name": "Processor Algea",
+    { "name": "Processor Algae",
       "code": "apa",
       "type": "counter"
     },
-    { "name": "Algea Missed",
+    { "name": "Algae Missed",
       "code": "aam",
       "type": "counter"
     },
@@ -119,20 +119,20 @@ var config_data = `
       "code": "tcm",
       "type": "counter"
     },
-    { "name": "Net Algea",
+    { "name": "Net Algae",
       "code": "tna",
       "type": "counter"
     },
-    { "name": "Processor Algea",
+    { "name": "Processor Algae",
       "code": "tpa",
       "type": "counter"
     },
-    { "name": "Algea Missed",
+    { "name": "Algae Missed",
       "code": "tam",
       "type": "counter"
     },
-    { "name": "Cargo Intake From",
-      "code": "tci",
+    { "name": "Coral Pick Up Spot",
+      "code": "cps",
       "type": "radio",
       "choices": {
         "Station": "Human Player Station<br>",
@@ -149,19 +149,12 @@ var config_data = `
       "type": "radio",
       "choices": {
         "Parked": "Parked<br>",
-        "Onstage": "Onstage<br>",
+        "Deep": "Deep<br>",
+	"Shallow": "Shallow<br>",
         "abf": "Attempted but Failed<br>",
         "DNA": "Not Attempted"
       },
       "defaultValue": "x"
-    },
-    { "name": "Harmonized (2nd or 3rd robot on chain)",
-      "code": "h",
-      "type": "bool"
-    },
-    { "name": "Note in Trap?",
-      "code": "td",
-      "type": "bool"
     }
   ],
   "postmatch": [
