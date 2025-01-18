@@ -87,7 +87,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Coral Pick Up Spot",
-      "code": "cps",
+      "code": "acps",
       "type":"radio",
       "choices": {
         "Station": "Human Player Station<br>",
