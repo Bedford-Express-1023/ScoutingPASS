@@ -127,6 +127,10 @@ var config_data = `
       "code": "tpa",
       "type": "counter"
     },
+    { "name": "Algae Dislodged
+      "code": "ad", 
+      "type": "counter"
+    },
     { "name": "Algae Missed",
       "code": "tam",
       "type": "counter"
