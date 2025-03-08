@@ -119,7 +119,7 @@ var config_data = `
       "code": "tcm",
       "type": "counter"
     },
-    { "name": "Net Algae",
+    { "name": "Net Robot Algae",
       "code": "tna",
       "type": "counter"
     },
